@@ -9,7 +9,7 @@ function AboutUs() {
     <Header/>
     <div className="about-container">
       <div className="about-content">
-        <h1>About Usss</h1>
+        <h1>About</h1>
         <p>
           At Plannex, we redefine the way events come to life by connecting dreamers with doers.
           Our platform is more than just software—it’s a movement that empowers individuals to seamlessly plan unforgettable moments while giving talented vendors the opportunity to showcase their expertise.
