@@ -8,7 +8,8 @@ function Header() {
       <div className="nav-links">
         <a href="#">Home</a>
         <NavLink to="/about">About Us</NavLink>
-        <a href="#">How it works</a>
+        <NavLink to="/how-it-works">How It Works</NavLink>
+        
         <a href="#">Services</a>
         <a href="#">Languages</a>
       </div>

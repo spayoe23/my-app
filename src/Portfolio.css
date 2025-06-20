@@ -1,0 +1,147 @@
+.portfolio-container {
+max-width: 1000px;
+margin: 30px auto;
+padding: 20px;
+position: relative;
+}
+
+h2 {
+text-align: center;
+margin-bottom: 25px;
+}
+
+.section {
+margin-bottom: 40px;
+}
+
+.section h3 {
+margin-bottom: 15px;
+color: #a50034;
+}
+
+/* Grid for previous works */
+.image-grid {
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(30%, 1fr));
+gap: 15px;
+}
+
+/* Box that contains each image and its description */
+.image-box {
+position: relative;
+width: 100%;
+background-color: #f9f9f9;
+border: 1px solid #ddd;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+}
+
+/* Image inside box */
+.image-box img {
+width: 100%;
+height: 200px;
+object-fit: cover;
+}
+
+/* Description + Edit section */
+.description-section {
+padding: 10px;
+background: #fff;
+border-top: 1px solid #eee;
+display: flex;
+flex-direction: column;
+gap: 8px;
+}
+
+.description-section textarea {
+resize: none;
+height: 60px;
+font-size: 14px;
+padding: 8px;
+border-radius: 5px;
+border: 1px solid #ccc;
+width: 100%;
+}
+
+.description-section p {
+font-size: 14px;
+color: #333;
+margin: 0;
+}
+
+.placeholder {
+color: #aaa;
+font-style: italic;
+}
+
+.description-section button {
+align-self: flex-end;
+background: #d8a6a1;
+color: white;
+border: none;
+padding: 6px 12px;
+border-radius: 6px;
+font-size: 14px;
+cursor: pointer;
+}
+
+.description-section button:hover {
+background: #b57c77;
+}
+
+/* Add Work Button - Floating */
+.add-work-btn {
+position: fixed;
+bottom: 40px;
+right: 40px;
+background-color: #d8a6a1;
+color: white;
+padding: 12px 20px;
+font-size: 16px;
+border: none;
+border-radius: 30px;
+cursor: pointer;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+transition: background 0.3s ease;
+}
+
+.add-work-btn:hover {
+background-color: #b57c77;
+}
+
+/* Optional Future Works section (if used) */
+.image-list {
+display: flex;
+flex-direction: column;
+gap: 15px;
+margin-top: 10px;
+}
+
+.image-list img {
+width: 100%;
+border-radius: 8px;
+border: 1px solid #ddd;
+box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+.delete-btn {
+position: absolute;
+top: 8px;
+right: 8px;
+background: rgba(255, 255, 255, 0.9);
+border: none;
+border-radius: 50%;
+padding: 6px 8px;
+font-size: 14px;
+cursor: pointer;
+z-index: 1;
+box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+
+.delete-btn:hover {
+background-color: #ffe6e6;
+color: crimson;
+}

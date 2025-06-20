@@ -12,6 +12,10 @@ function Cdash() {
     navigate('/');
   };
 
+  const handleStartPlanning = () => {
+    navigate('/start-planning');
+  };
+
   return (
     <>
       <Header />
@@ -24,9 +28,9 @@ function Cdash() {
             </div>
           </div>
           <div className="menu-section">
-            <button>Button A</button>
-            <button>Button B</button>
-            <button>Button C</button>
+            <button>My Events</button>
+            <button>To Do List</button>
+            <button>Feedback</button>
             <button onClick={() => setShowLogoutPopup(true)}>Logout</button>
           </div>
         </div>
@@ -38,7 +42,7 @@ function Cdash() {
           {/* Center Content */}
           <div className="center-box">
             <h2>Plan Your Dream Day</h2>
-            <button className="start-btn">Start</button>
+            <button className="start-btn" onClick={handleStartPlanning}>Start</button>
           </div>
         </div>
       </div>

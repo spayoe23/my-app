@@ -8,6 +8,13 @@ import MyEvent from './MyEvent';
 import Todo from './Todo';
 import FeedbackWrite from './FeedbackWrite';
 import AboutUs from './AboutUs';
+import HowItWorks from './HowItWorks';
+import StartPlanning from './StartPlaning';
+import VendorDescription from './VendorDescription';
+import Vdash from './Vdash';
+import Pricing from './Pricing';
+import Portfolio from './Portfolio';
+
 
 
 function App() {
@@ -23,6 +30,12 @@ function App() {
         <Route path="/todo" element={<Todo />} />
         <Route path="/feedbackwrite" element={<FeedbackWrite />} />
         <Route path="/about" element={<AboutUs />} />
+        <Route path="/how-it-works" element={<HowItWorks />} />
+        <Route path="/start-planning" element={<StartPlanning />} />
+        <Route path="/vendor/:vendorId" element={<VendorDescription />} />
+        <Route path="/vdash" element={<Vdash />} />
+        <Route path='/pricing' element={<Pricing/>}/>
+        <Route path='/portfolio' element={<Portfolio/>}/>
       </Routes>
     </Router>
   );
