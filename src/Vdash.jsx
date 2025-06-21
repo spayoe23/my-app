@@ -32,7 +32,7 @@ return (
 {/* Sidebar */}
 <div className="sidebar">
 <div className="profile-section">
-<button>View Profile</button>
+<button onClick={() => navigate('/vdash/view-profile')}>View Profile</button>
 <div className="profile-photo">
 <img src="https://via.placeholder.com/80" alt="Profile" />
 </div>
