@@ -4,8 +4,6 @@ import Home from "./Home";
 import Login from "./Login";
 import Register from './Register';
 import Cdash from './Cdash'; 
-import Todo from './Todo';
-import FeedbackWrite from './FeedbackWrite';
 import AboutUs from './AboutUs';
 import HowItWorks from './HowItWorks';
 import StartPlanning from './StartPlaning';
@@ -17,6 +15,8 @@ import ViewProfile from './ViewVprofi;e';
 import CustomerViewProfile from './CustomerViewProfile';
 import Agreement from './Agreement'
 import MyEvent from './MyEvent';
+import WriteFeedback from './WriteFeedback';
+
 
 
 function App() {
@@ -28,8 +28,7 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/cdash" element={<Cdash />} />
-        <Route path="/todo" element={<Todo />} />
-        <Route path="/feedbackwrite" element={<FeedbackWrite />} />
+        <Route path="/feedback" element={<WriteFeedback />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/how-it-works" element={<HowItWorks />} />
         <Route path="/start-planning" element={<StartPlanning />} />

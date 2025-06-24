@@ -14,7 +14,7 @@
   gap: 1rem;
 }
 
-.start-btn, .vendor-btn {
+a.start-btn, .vendor-btn {
   text-decoration: none;
   display: inline-block;
   padding: 10px 20px;
@@ -27,6 +27,6 @@
 
 }
 
-.start-btn:hover, .vendor-btn:hover {
+a.start-btn:hover, .vendor-btn:hover {
   background-color: #b57c77; 
 }

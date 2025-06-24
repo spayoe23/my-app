@@ -30,7 +30,7 @@ function Cdash() {
           <div className="menu-section">
             <button onClick={() => navigate('/myEvent')}>My Events</button>
             <button>To Do List</button>
-            <button>Feedback</button>
+            <button onClick={() => navigate('/feedback')}>Feedback</button>
             <button onClick={() => setShowLogoutPopup(true)}>Logout</button>
           </div>
         </div>
@@ -41,7 +41,7 @@ function Cdash() {
 
           {/* Center Content */}
           <div className="center-box">
-            <h2>Plan Your Dream Day</h2>
+            <h2>Lets Plan Your Dream Day Together!</h2>
             <button className="start-btn" onClick={handleStartPlanning}>Start</button>
           </div>
         </div>
