@@ -16,7 +16,7 @@ import CustomerViewProfile from './CustomerViewProfile';
 import Agreement from './Agreement'
 import MyEvent from './MyEvent';
 import WriteFeedback from './WriteFeedback';
-
+import ToDo from './ToDo';
 
 
 function App() {
@@ -40,6 +40,7 @@ function App() {
         <Route path='/cdash/customer-view-profile' element={<CustomerViewProfile/>}/>
         <Route path='/agreement' element={<Agreement/>}/>
         <Route path='/myevent' element={<MyEvent/>}/>
+        <Route path='/to-do'element={<ToDo/>}/>
       </Routes>
     </Router>
   );
